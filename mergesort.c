@@ -11,10 +11,10 @@ void merge(int getArray[], int index_head, int index_midpoint, int index_tail) {
 	int partition_left[128];
 	int partition_right[128];
 
-	for (int = 0; i < len_left; i++) {
+	for (int i = 0; i < len_left; i++) {
 		partition_left[i] = getArray[index_head + i];
 	}
-	for (int = 0; i < len_right; i++) {
+	for (int i = 0; i < len_right; i++) {
 		partition_right[i] = getArray[index_midpoint + 1 + i];
 	}
 
